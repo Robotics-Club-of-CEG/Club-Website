@@ -1,0 +1,49 @@
+footer{
+    min-height: 280px;
+    width: 100%;
+    background-color: #383838;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+}
+.abouttheclub{
+    margin: 20px;
+    padding: 15px;
+    max-width: 50%;
+    width: 50%;
+    font-family: "Mainfont";
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact{
+    margin: 20px;
+    padding: 15px;
+    max-width: 50%;
+    width: 50%;
+    font-family: "Mainfont";
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.social{
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+}
+@media screen and (max-width: 600px) {
+    footer{
+        flex-direction: column;
+        align-items: center;
+        min-height: 300px;
+    }
+    .abouttheclub{
+        margin-top: 10;
+    }
+    .social{
+        width: 99%;
+        align-self: center;
+    }
+}
