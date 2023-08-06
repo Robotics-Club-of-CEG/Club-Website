@@ -27,16 +27,25 @@ function Footer() {
         <div className="phone">Phone: +91 9489800128</div>
         <div className="email">Email: roboclubofceg@gmail.com</div>
         <div className="social">
-          <a href="">
+          <a
+            href="https://www.instagram.com/robotics_club_ceg/"
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faInstagram} size="2x" color="#fff" />
           </a>
           <a href="">
             <FontAwesomeIcon icon={faFacebook} size="2x" color="#fff" />
           </a>
-          <a href="">
+          <a
+            href="https://www.linkedin.com/company/roboticsclubofceg/mycompany/"
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faLinkedin} size="2x" color="#fff" />
           </a>
-          <a href="">
+          <a
+            href="https://www.youtube.com/@roboticsclubofceg1444"
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faYoutube} size="2x" color="#fff" />
           </a>
         </div>
